@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin-bottom: 80px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.type-link{
+    display: flex;
+    gap: 200px;
+    margin: 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.bootstrap-link{
+    border: 6px solid #7811f4;
+    border-radius: 20%;
+    box-sizing:content-box;
+    text-align: center;
+    padding: 37px;
+}
+
+.bootstrap-link img{
+    background: white;
+    width: 600px;
+    margin: 0;
+}
+
+.tailwind-link{
+    border: 6px solid #17bab9;
+    border-radius: 20%;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 37px;
+    width: 600px;
+}
+
+.tailwind-link img{
+    padding-top: 80px;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: #17bab9;
+}
+
+a:hover{
+    opacity: 1;
+}
